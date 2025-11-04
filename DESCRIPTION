@@ -1,14 +1,15 @@
-Package: PANJkestrels
-Title: What the Package Does (One Line, Title Case)
+Package: kestrelbox
+Title: Data Package with Kestrel Nesting Box Data
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Leo", "Soccio", email = "leo.soccio@gmail.com", role = c("aut", "cre"))
+Description: Loads two datasets containing kestrel nesting box data for Pennsylvania and New Jersey. One dataset (bybox) is organized so that each row represents a nesting box, and the other (bychick) is organized so that each row represents a chick.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
 Depends: 
     R (>= 3.5)
 LazyData: true
+Imports: 
+    tibble
